@@ -1,0 +1,14 @@
+C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi02\SchoolWFApp\bin\Debug\SchoolWFApp.exe.config
+C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi02\SchoolWFApp\bin\Debug\SchoolWFApp.exe
+C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi02\SchoolWFApp\bin\Debug\SchoolWFApp.pdb
+C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi02\SchoolWFApp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi02\SchoolWFApp\bin\Debug\Newtonsoft.Json.xml
+C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi02\SchoolWFApp\obj\Debug\SchoolWFApp.csprojAssemblyReference.cache
+C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi02\SchoolWFApp\obj\Debug\SchoolWFApp.frmMain.resources
+C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi02\SchoolWFApp\obj\Debug\SchoolWFApp.Properties.Resources.resources
+C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi02\SchoolWFApp\obj\Debug\SchoolWFApp.csproj.GenerateResource.cache
+C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi02\SchoolWFApp\obj\Debug\SchoolWFApp.csproj.CoreCompileInputs.cache
+C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi02\SchoolWFApp\obj\Debug\SchoolWFApp.csproj.CopyComplete
+C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi02\SchoolWFApp\obj\Debug\SchoolWFApp.exe
+C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi02\SchoolWFApp\obj\Debug\SchoolWFApp.pdb
+C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi02\SchoolWFApp\obj\Debug\SchoolWFApp.frmStudent.resources

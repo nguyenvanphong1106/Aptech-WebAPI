@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "136OnlineShop", "136OnlineShop\136OnlineShop.csproj", "{4CDA5FCD-784B-4144-928D-4817FF01EDA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "136WinformShop", "136WinformShop\136WinformShop.csproj", "{9679FC9E-F01B-4A0B-BFD3-2F56A99165A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CDA5FCD-784B-4144-928D-4817FF01EDA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CDA5FCD-784B-4144-928D-4817FF01EDA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CDA5FCD-784B-4144-928D-4817FF01EDA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CDA5FCD-784B-4144-928D-4817FF01EDA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9679FC9E-F01B-4A0B-BFD3-2F56A99165A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9679FC9E-F01B-4A0B-BFD3-2F56A99165A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9679FC9E-F01B-4A0B-BFD3-2F56A99165A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9679FC9E-F01B-4A0B-BFD3-2F56A99165A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {402AD1B5-BB0B-4DDF-A3F5-9DD2C359CDD3}
+	EndGlobalSection
+EndGlobal

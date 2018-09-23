@@ -1,0 +1,14 @@
+C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi01\ProductManagement\bin\Debug\ProductManagement.exe.config
+C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi01\ProductManagement\bin\Debug\ProductManagement.exe
+C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi01\ProductManagement\bin\Debug\ProductManagement.pdb
+C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi01\ProductManagement\bin\Debug\Newtonsoft.Json.dll
+C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi01\ProductManagement\bin\Debug\Newtonsoft.Json.xml
+C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi01\ProductManagement\obj\Debug\ProductManagement.csprojAssemblyReference.cache
+C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi01\ProductManagement\obj\Debug\ProductManagement.Form1.resources
+C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi01\ProductManagement\obj\Debug\ProductManagement.Properties.Resources.resources
+C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi01\ProductManagement\obj\Debug\ProductManagement.csproj.GenerateResource.cache
+C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi01\ProductManagement\obj\Debug\ProductManagement.csproj.CoreCompileInputs.cache
+C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi01\ProductManagement\obj\Debug\ProductManagement.csproj.CopyComplete
+C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi01\ProductManagement\obj\Debug\ProductManagement.exe
+C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi01\ProductManagement\obj\Debug\ProductManagement.pdb
+C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi01\ProductManagement\obj\Debug\ProductManagement.Form2.resources
