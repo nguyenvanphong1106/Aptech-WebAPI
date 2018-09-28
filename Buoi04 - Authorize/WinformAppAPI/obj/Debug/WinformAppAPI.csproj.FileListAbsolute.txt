@@ -1,0 +1,14 @@
+C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi04 - Authorize\WinformAppAPI\bin\Debug\WinformAppAPI.exe.config
+C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi04 - Authorize\WinformAppAPI\bin\Debug\WinformAppAPI.exe
+C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi04 - Authorize\WinformAppAPI\bin\Debug\WinformAppAPI.pdb
+C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi04 - Authorize\WinformAppAPI\bin\Debug\Newtonsoft.Json.dll
+C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi04 - Authorize\WinformAppAPI\bin\Debug\Newtonsoft.Json.xml
+C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi04 - Authorize\WinformAppAPI\obj\Debug\WinformAppAPI.csprojAssemblyReference.cache
+C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi04 - Authorize\WinformAppAPI\obj\Debug\WinformAppAPI.frmMain.resources
+C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi04 - Authorize\WinformAppAPI\obj\Debug\WinformAppAPI.Properties.Resources.resources
+C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi04 - Authorize\WinformAppAPI\obj\Debug\WinformAppAPI.csproj.GenerateResource.cache
+C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi04 - Authorize\WinformAppAPI\obj\Debug\WinformAppAPI.csproj.CoreCompileInputs.cache
+C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi04 - Authorize\WinformAppAPI\obj\Debug\WinformAppAPI.csproj.CopyComplete
+C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi04 - Authorize\WinformAppAPI\obj\Debug\WinformAppAPI.exe
+C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi04 - Authorize\WinformAppAPI\obj\Debug\WinformAppAPI.pdb
+C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi04 - Authorize\WinformAppAPI\obj\Debug\WinformAppAPI.frmLogin.resources

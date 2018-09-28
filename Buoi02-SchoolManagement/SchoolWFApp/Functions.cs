@@ -25,17 +25,20 @@ namespace SchoolWFApp
                 using (HttpClient client = new HttpClient(handler))
                 {
                     StringContent data = new StringContent(
-                        JsonConvert.SerializeObject(new LoginVM()
-                        {
-                            UserName = username,
-                            Password = password
-                        },
-                     Encoding.UTF8,
-                     "application/json");
-                }
-                using (var response = await client.PostAsync(url_login, data))
-                {
-                    return true;
+                        JsonConvert.SerializeObject(
+                            new LoginVM()
+                            {
+                                UserName = username,
+                                Password = password
+                            }),
+                             Encoding.UTF8,
+                             "application/json"
+                     );
+
+                    using (var response = await client.PostAsync(url_login, data))
+                    {
+                        return true;
+                    }
                 }
             }
             catch (Exception)

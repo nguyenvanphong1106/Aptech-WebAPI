@@ -21,7 +21,7 @@ namespace SchoolWFApp
         {
             var list = await Functions.GetStudents();
 
-            if (list != null)  //ko co du lieu
+            if (list != null)  //list co du lieu
             {
                 var rs = from s in list
                          select new
