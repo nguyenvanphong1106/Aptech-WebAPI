@@ -1,0 +1,16 @@
+C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi05 - TokenBank\BankClientApp\bin\Debug\BankClientApp.exe.config
+C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi05 - TokenBank\BankClientApp\bin\Debug\BankClientApp.exe
+C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi05 - TokenBank\BankClientApp\bin\Debug\BankClientApp.pdb
+C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi05 - TokenBank\BankClientApp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi05 - TokenBank\BankClientApp\bin\Debug\Newtonsoft.Json.xml
+C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi05 - TokenBank\BankClientApp\obj\Debug\BankClientApp.csprojAssemblyReference.cache
+C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi05 - TokenBank\BankClientApp\obj\Debug\BankClientApp.frmLogin.resources
+C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi05 - TokenBank\BankClientApp\obj\Debug\BankClientApp.frmMain.resources
+C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi05 - TokenBank\BankClientApp\obj\Debug\BankClientApp.frmTransfer.resources
+C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi05 - TokenBank\BankClientApp\obj\Debug\BankClientApp.Properties.Resources.resources
+C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi05 - TokenBank\BankClientApp\obj\Debug\BankClientApp.csproj.GenerateResource.cache
+C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi05 - TokenBank\BankClientApp\obj\Debug\BankClientApp.csproj.CoreCompileInputs.cache
+C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi05 - TokenBank\BankClientApp\obj\Debug\BankClientApp.csproj.CopyComplete
+C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi05 - TokenBank\BankClientApp\obj\Debug\BankClientApp.exe
+C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi05 - TokenBank\BankClientApp\obj\Debug\BankClientApp.pdb
+C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi05 - TokenBank\BankClientApp\obj\Debug\BankClientApp.frmHistory.resources
