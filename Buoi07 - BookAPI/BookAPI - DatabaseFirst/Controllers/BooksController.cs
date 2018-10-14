@@ -71,17 +71,24 @@ namespace BookAPI___DatabaseFirst.Controllers
         }
 
         //GET BOOK GENRE
-        [Route("genre")]
-        [ResponseType(typeof(object))]
+        [Route("{genre}")]
+        //[ResponseType(typeof(object))]
         public IQueryable<BookDto> GetBookByGenre(string genre)
         {
             return db.Books.Include(b => b.Author)
                 .Where(b => b.Genre.Equals(genre, StringComparison.OrdinalIgnoreCase))
                 .Select(AsBookDto);
-
-            //return Ok(book);
         }
-        
+
+        //GET BOOK BY AUTHOR
+        [Route("~/api/authors/{authorId:int}/books")]
+        public IQueryable<BookDto> GetBooksByAuthor(int authorId)
+        {
+            return db.Books.Include(b => b.Author)
+                .Where(b => b.AuthorId == authorId)
+                .Select(AsBookDto);
+        }
+
         protected override void Dispose(bool disposing)
         {
             db.Dispose();
