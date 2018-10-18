@@ -5,7 +5,6 @@ using System.Web.Http;
 using System.Security.Claims;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
-using System.Linq;
 
 namespace JWT_Authentication
 {
@@ -35,7 +34,6 @@ namespace JWT_Authentication
                 JwtSecurityToken token = handler.CreateJwtSecurityToken(descriptor);
                 return handler.WriteToken(token);
             }
-
 
             public static ClaimsPrincipal ValidateToken(string token)
             {
