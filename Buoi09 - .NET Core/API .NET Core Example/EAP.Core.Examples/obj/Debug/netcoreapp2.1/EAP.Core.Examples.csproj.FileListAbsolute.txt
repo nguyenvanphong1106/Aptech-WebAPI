@@ -1,0 +1,14 @@
+C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi09 - .NET Core\API .NET Core Example\EAP.Core.Examples\bin\Debug\netcoreapp2.1\EAP.Core.Examples.deps.json
+C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi09 - .NET Core\API .NET Core Example\EAP.Core.Examples\bin\Debug\netcoreapp2.1\EAP.Core.Examples.runtimeconfig.json
+C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi09 - .NET Core\API .NET Core Example\EAP.Core.Examples\bin\Debug\netcoreapp2.1\EAP.Core.Examples.runtimeconfig.dev.json
+C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi09 - .NET Core\API .NET Core Example\EAP.Core.Examples\bin\Debug\netcoreapp2.1\EAP.Core.Examples.dll
+C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi09 - .NET Core\API .NET Core Example\EAP.Core.Examples\bin\Debug\netcoreapp2.1\EAP.Core.Examples.pdb
+C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi09 - .NET Core\API .NET Core Example\EAP.Core.Examples\obj\Debug\netcoreapp2.1\EAP.Core.Examples.csprojAssemblyReference.cache
+C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi09 - .NET Core\API .NET Core Example\EAP.Core.Examples\obj\Debug\netcoreapp2.1\EAP.Core.Examples.csproj.CoreCompileInputs.cache
+C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi09 - .NET Core\API .NET Core Example\EAP.Core.Examples\obj\Debug\netcoreapp2.1\EAP.Core.Examples.RazorAssemblyInfo.cache
+C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi09 - .NET Core\API .NET Core Example\EAP.Core.Examples\obj\Debug\netcoreapp2.1\EAP.Core.Examples.RazorAssemblyInfo.cs
+C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi09 - .NET Core\API .NET Core Example\EAP.Core.Examples\obj\Debug\netcoreapp2.1\EAP.Core.Examples.AssemblyInfoInputs.cache
+C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi09 - .NET Core\API .NET Core Example\EAP.Core.Examples\obj\Debug\netcoreapp2.1\EAP.Core.Examples.AssemblyInfo.cs
+C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi09 - .NET Core\API .NET Core Example\EAP.Core.Examples\obj\Debug\netcoreapp2.1\EAP.Core.Examples.RazorTargetAssemblyInfo.cache
+C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi09 - .NET Core\API .NET Core Example\EAP.Core.Examples\obj\Debug\netcoreapp2.1\EAP.Core.Examples.dll
+C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi09 - .NET Core\API .NET Core Example\EAP.Core.Examples\obj\Debug\netcoreapp2.1\EAP.Core.Examples.pdb
