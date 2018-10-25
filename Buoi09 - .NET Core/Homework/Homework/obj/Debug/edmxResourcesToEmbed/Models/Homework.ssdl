@@ -18,7 +18,7 @@
     <Property Name="PhoneNumber" Type="varchar" MaxLength="50" />
     <Property Name="Address" Type="nvarchar" MaxLength="500" Nullable="false" />
     <Property Name="Email" Type="varchar" MaxLength="50" Nullable="false" />
-    <Property Name="Birthday" Type="datetime" />
+    <Property Name="Birthday" Type="date" />
     <Property Name="UserName" Type="nvarchar" MaxLength="50" />
     <Property Name="Password" Type="varchar" MaxLength="500" />
   </EntityType>
@@ -34,7 +34,7 @@
     <Property Name="PhoneNumber" Type="varchar" MaxLength="50" />
     <Property Name="Address" Type="nvarchar" MaxLength="500" Nullable="false" />
     <Property Name="Email" Type="varchar" MaxLength="50" Nullable="false" />
-    <Property Name="Birthday" Type="datetime" />
+    <Property Name="Birthday" Type="date" />
   </EntityType>
   <EntityType Name="orderdetails">
     <Key>
@@ -155,6 +155,12 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
+  <Function Name="get_discount_info" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Discount" Type="decimal" Mode="In" />
+  </Function>
+  <Function Name="get_stock" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Stock" Type="decimal" Mode="In" />
+  </Function>
   <EntityContainer Name="aptech_onlineshopModelStoreContainer">
     <EntitySet Name="categories" EntityType="Self.categories" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="customers" EntityType="Self.customers" Schema="dbo" store:Type="Tables" />

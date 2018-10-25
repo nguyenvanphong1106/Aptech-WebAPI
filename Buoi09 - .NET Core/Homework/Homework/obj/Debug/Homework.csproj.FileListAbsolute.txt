@@ -90,7 +90,6 @@ C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi09 - .NET Core\Homework\Homework\
 C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi09 - .NET Core\Homework\Homework\bin\Microsoft.AI.WindowsServer.xml
 C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi09 - .NET Core\Homework\Homework\bin\Microsoft.AI.Web.xml
 C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi09 - .NET Core\Homework\Homework\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi09 - .NET Core\Homework\Homework\obj\Debug\Homework.csprojAssemblyReference.cache
 C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi09 - .NET Core\Homework\Homework\obj\Debug\Homework.csproj.CoreCompileInputs.cache
 C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi09 - .NET Core\Homework\Homework\obj\Debug\Homework.csproj.CopyComplete
 C:\Users\PC\Documents\GitHub\Aptech-WebAPI\Buoi09 - .NET Core\Homework\Homework\obj\Debug\Homework.dll

@@ -12,6 +12,8 @@ namespace Homework.Models
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
+    using System.Data.Entity.Core.Objects;
+    using System.Linq;
     
     public partial class aptech_onlineshopEntities : DbContext
     {
@@ -32,5 +34,23 @@ namespace Homework.Models
         public virtual DbSet<order> orders { get; set; }
         public virtual DbSet<product> products { get; set; }
         public virtual DbSet<supplier> suppliers { get; set; }
+    
+        public virtual ObjectResult<get_discount_info_Result> get_discount_info(Nullable<decimal> discount)
+        {
+            var discountParameter = discount.HasValue ?
+                new ObjectParameter("Discount", discount) :
+                new ObjectParameter("Discount", typeof(decimal));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<get_discount_info_Result>("get_discount_info", discountParameter);
+        }
+    
+        public virtual ObjectResult<get_stock_Result> get_stock(Nullable<decimal> stock)
+        {
+            var stockParameter = stock.HasValue ?
+                new ObjectParameter("Stock", stock) :
+                new ObjectParameter("Stock", typeof(decimal));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<get_stock_Result>("get_stock", stockParameter);
+        }
     }
 }

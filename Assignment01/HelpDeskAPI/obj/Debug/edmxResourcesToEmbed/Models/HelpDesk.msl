@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="HelpDeskSystemModelStoreContainer" CdmEntityContainer="HelpDeskSystemEntities">
+    <EntitySetMapping Name="WorkItems">
+      <EntityTypeMapping TypeName="HelpDeskSystemModel.WorkItem">
+        <MappingFragment StoreEntitySet="WorkItems">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="CompletedDate" ColumnName="CompletedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

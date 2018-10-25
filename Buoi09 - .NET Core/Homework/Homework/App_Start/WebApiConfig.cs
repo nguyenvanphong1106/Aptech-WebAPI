@@ -19,6 +19,10 @@ namespace Homework
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
+
+            //XML to JSON
+            config.Formatters.Remove(config.Formatters.XmlFormatter);
+            config.Formatters.JsonFormatter.SupportedMediaTypes.Add(new System.Net.Http.Headers.MediaTypeHeaderValue("application/json"));
         }
     }
 }

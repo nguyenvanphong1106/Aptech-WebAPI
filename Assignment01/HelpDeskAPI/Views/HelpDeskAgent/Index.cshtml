@@ -1,0 +1,189 @@
+﻿@model HelpDeskAPI.Models.WorkItem
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+
+    <link href="../../Scripts/bootstrap.min.css" rel="stylesheet" />
+    <script src="../../Scripts/jquery-3.3.1.min.js"></script>
+    <script src="../../Scripts/bootstrap.min.js"></script>
+
+    <style>
+        #TableItem {
+            font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        #TableItem td, #TableItem th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        #TableItem tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        #TableItem tr:hover {
+            background-color: #ddd;
+        }
+
+        #TableItem th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #4CAF50;
+            color: white;
+        }      
+    </style>
+    
+    <script>
+        var url = "http://localhost:50255/api/workitems";
+        var WorkItem = {
+            Id: 0,
+            Title: "",
+            Status: "",
+            CreatedDate: "",
+            CompletedDate: "",
+        }
+
+        $(document).ready(function () {
+            getItemList();
+        });
+
+        // Get all Tasks to display
+        function getItemList() {
+            // Call Web API to get a list of Tasks
+            $.ajax({
+                url: url,
+                type: 'GET',
+                dataType: 'json',
+                success: function (items) {
+                    itemListSuccess(items);
+                },
+                error: function (request, message, error) {
+                    handleException(request, message, error);
+                }
+            });
+        }
+        // Success
+        function itemListSuccess(items) {
+            // Iterate over the collection of data
+            $("#TableItem tbody").remove();
+            $.each(items, function (index, item) {
+                // Add new row
+                itemAddRow(item);
+            });
+        }
+        // Handle Exceptions
+        function handleException(request, message, error) {
+            var msg = "";
+            msg += "Code: " + request.status + "\n";
+            msg += "Text: " + request.statusText + "\n";
+            if (request.responseJSON != null) {
+                msg += "Message" + request.responseJSON.Message + "\n";
+            }
+
+            alert(msg);
+        }
+        // Add new row to table
+        function itemAddRow(item) {
+            // First check if a <tbody> tag exists, add one if not
+            if ($("#TableItem tbody").length == 0) {
+                $("#TableItem").append("<tbody></tbody>");
+            }
+            // Append row to <table>
+            $("#TableItem tbody").append(
+                itemBuildTableRow(item));
+        }
+        // Build table row
+        function itemBuildTableRow(item) {
+            var items =
+                "<tr>" +
+                "<td>" + item.Id + "</td>"
+                + "<td>" + item.Title + "</td>"
+                + "<td>" + item.Status + "</td>"
+                + "<td>" + item.CreatedDate + "</td>"
+                + "<td>" + item.CompletedDate + "</td>"
+                + "</tr>";
+            return items;
+        }
+
+
+
+        //Add new Task to db
+        function AddNewTask(item) {
+            var options = {};
+            options.url = url;
+            options.type = "POST";
+
+            var newItem = WorkItem;
+            newItem.Title = $("#title").val();
+            newItem.Status = $("#status").val();
+            newItem.CreatedDate = $("#createdDate").val();
+            newItem.CompletedDate = $("#completedDate").val();
+
+            console.dir(newItem);
+            options.data = JSON.stringify(newItem);
+            options.contentType = "application/json;charset=utf-8";
+            options.dataType = "html";
+
+            options.success = function (message) {
+                getItemList();
+                $("#message").html("Added Successfully");
+            },
+            options.error = function () {
+                $("#message").html("Added Error");
+            };
+            $.ajax(options);
+        }
+
+        // Format date
+        $("input").on("change", function () {
+            this.setAttribute(
+                "data-date",
+                moment(this.value, "YYYY-MM-DD")
+                    .format(this.getAttribute("data-date-format"))
+            )
+        }).trigger("change")
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <br />
+        <form>
+            <table id="TableItem">
+                <thead>                   
+                    <tr>
+                        <th> Id </th>
+                        <th> Title </th>
+                        <th> Status </th>
+                        <th> Created Date </th>
+                        <th> Completed Date </th>
+                        <th> </th>
+                    </tr>
+                    <tr>
+                        <td id="id" style="width:60px"></td>
+                        <td><input id="title" type="text" /></td>
+                        <td><input id="status" type="text" /></td>
+                        <td><input id="createdDate" type="date" data-date="" data-date-format="DD MMMM YYYY" /></td>
+                        <td><input id="completedDate" type="date" data-date="" data-date-format="DD MMMM YYYY" /></td>
+
+                        <td><input  id="btnAdd" type="button" value="Add New" onclick='AddNewTask(this)' /></td>
+                </thead>
+            </table>
+            <br />
+            <div id="message"></div>
+        </form>
+    </div>
+</body>
+</html>
+
+

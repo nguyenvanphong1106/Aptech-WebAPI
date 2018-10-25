@@ -12,7 +12,7 @@ using _136OnlineShop.Models;
 
 namespace _136OnlineShop.Controllers
 {
-    [Authorize]
+    //[Authorize]
     public class CategoriesController : ApiController
     {
         private EShopDBEntities db = new EShopDBEntities();
